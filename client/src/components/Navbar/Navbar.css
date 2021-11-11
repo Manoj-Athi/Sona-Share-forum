@@ -1,0 +1,76 @@
+/* Navbar styles */
+
+.nav{
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav div:nth-child(2){
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    font-size: xx-large;
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-title span:nth-child(2){
+    color: #5D3FD3;
+}
+
+.nav-link, .nav-avatar, .logout-btn{
+    padding: 5px 0px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ;
+    font-size: 15px;
+    border-bottom: solid 2px transparent;
+}
+
+.nav-link:hover, .logout-btn:hover{
+    color: #5D3FD3;
+}
+
+.nav-link-selected{
+    border-color: #5D3FD3;
+}
+
+.nav-avatar{
+    padding: 5px 10px;
+    background-color: #f0ecf7;
+    border-radius: 50%;
+}
+
+.logout-btn{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.nav-auth{
+    width: 80px;
+    min-height: 100vh;
+    background-color: #5D3FD3;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-icon{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    color: white;
+}

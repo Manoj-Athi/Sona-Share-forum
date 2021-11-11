@@ -1,0 +1,81 @@
+/* Landing Page Header */
+
+.landing-header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../../assets/landing-blob-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-header h1,
+.landing-section-1 h1,
+.landing-article h1{
+    font-size: 60px;
+    margin: 0%;
+}
+
+.create-group-btn{
+    padding: 10px 20px;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+    background-color: #5D3FD3;
+    border: solid 2px #5D3FD3;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.create-group-btn:hover{
+    background-color: #e2c8ff;
+    color: #5D3FD3;
+}
+
+.landing-header img{
+    height: 420px;
+    width: auto;
+}
+
+/* Landing Page Section */
+
+.landing-section-1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../../assets/landing-blob-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-section-1 div,
+.landing-article div{
+    width: 420px;
+}
+
+.landing-section-1 img{
+    height: 360px;
+    width: auto;
+}
+
+/* Landing Page Article */
+
+.landing-article{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../../assets/landing-stacked-waves.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-article img{
+    height: 460px;
+    width: auto;
+}

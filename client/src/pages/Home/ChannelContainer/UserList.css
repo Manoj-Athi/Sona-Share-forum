@@ -1,0 +1,28 @@
+.user-item-container{
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.search-chat__container{
+    /* min-height: 60px; */
+    border-bottom: solid 1px rgb(211, 210, 210);
+}
+.search-chat__wrapper{
+    position: relative;
+    margin: 20px;
+}
+.search-chat__icon{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+.search-chat__input{
+    width: 400px;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+.search-chat__input::placeholder{
+    color: black;
+}

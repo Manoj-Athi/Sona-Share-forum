@@ -1,0 +1,28 @@
+.how-to-use__container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../../assets/how-to-use-bg-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.how-to-use-image__wrapper{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.how-to-use-image__wrapper img{
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.how-to-use-button__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
